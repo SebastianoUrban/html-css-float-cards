@@ -5,10 +5,14 @@
     font-family: 'Fredoka', sans-serif;
 }
 
-.clearfix{
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
+}
+
+.float-left{
+    float: left;
 }
 
 main{
@@ -16,6 +20,8 @@ main{
     margin: 0 auto;
     padding-top: 2rem;
 }
+
+/* First part of the main */
 
 main>h1{
     text-align: center;
@@ -26,4 +32,42 @@ main>h1{
 
 main>p{
     text-align: center;
+    margin-bottom: 3rem;
+}
+
+/* Card */
+
+div.card p{
+    display: inline-block;
+    color: white;
+    vertical-align: middle;
+    padding-left: 0.8rem;
+}
+
+div.card img{
+    width: 6rem;
+    vertical-align: middle;
+    
+}
+
+div.card{
+    background-color: black;
+    min-width: 315px;
+    width: calc((100% / 3) - 1rem);
+    margin-right: 1rem;
+}
+
+span.name{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+span.role{
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
+
+span.email{
+    color: #6dcffd;
+    font-size: 0.9rem;
 }
