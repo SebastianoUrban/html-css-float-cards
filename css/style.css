@@ -41,7 +41,7 @@ div.card p{
     display: inline-block;
     color: white;
     vertical-align: middle;
-    padding-left: 0.8rem;
+    padding-left: 0.6rem;
 }
 
 div.card img{
@@ -52,9 +52,11 @@ div.card img{
 
 div.card{
     background-color: black;
-    min-width: 315px;
+    min-width: 350px;
     width: calc((100% / 3) - 1rem);
-    margin-right: 1rem;
+    margin: 0.25rem 0.5rem;
+    box-shadow: 0.25rem 0.3rem 1px 1px rgba(226, 43, 19, 0.404);
+
 }
 
 span.name{
@@ -63,11 +65,17 @@ span.name{
 }
 
 span.role{
-    font-size: 1.1rem;
-    line-height: 2rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
 }
 
 span.email{
     color: #6dcffd;
-    font-size: 0.9rem;
+    font-size: 1rem;
+}
+
+/* row */
+
+section.row{
+    margin-top: 2rem;
 }
