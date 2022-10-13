@@ -2,5 +2,28 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
 }
 
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+main>h1{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #e02d72;
+}
+
+main>p{
+    text-align: center;
+}
